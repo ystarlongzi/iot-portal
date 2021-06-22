@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+@import '@ant-design/pro-layout/dist/layout.css';
+
+.ant-pro-menu-item{
+    height: 30px !important;
+}
+
+.ant-pro-global-header-logo a h1 {
+  color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ant-menu-inline-collapsed .ant-pro-menu-item-title {
+  opacity: 0;
+}

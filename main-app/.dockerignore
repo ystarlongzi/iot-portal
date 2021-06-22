@@ -1,0 +1,6 @@
+.sh
+.vscode
+node_modules
+public
+src
+build

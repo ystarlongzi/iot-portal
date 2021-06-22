@@ -1,0 +1,40 @@
+.container {
+  .title {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+  }
+  :global {
+    .ant-tabs-nav {
+      &::before {
+        border: none;
+      }
+      margin: 0 0 32px 0;
+    }
+    .ant-tabs-nav-list {
+      padding: 0 20px;
+    }
+    .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+      justify-content: space-between;
+      width: 100%;
+      .ant-tabs-tab {
+        padding: 12px 28px;
+      }
+    }
+  }
+}
+
+.selectOptionsWrap {
+  width: 328px !important;
+}
+
+.back2login {
+  font-weight: 600;
+  font-size: 21px;
+  color: #333435;
+}
+.back2login:hover {
+  color: #0199ff
+}
+

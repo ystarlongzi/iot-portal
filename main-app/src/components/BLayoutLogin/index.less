@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 100vh;
+  min-height: 760px;
+  margin: 0 auto;
+  .left {
+    width: 880px;
+    height: 760px;
+    background-image: url('./login.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .login {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    padding: 60px 36px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 30px 3px rgba(0, 0, 0, 0.08);
+    .lang {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, 0);
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .login {
+    margin-right: 160px;
+  }
+}
