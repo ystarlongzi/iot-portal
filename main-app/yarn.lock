@@ -1769,10 +1769,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@tuya/connector@^1.0.4-alpha.9":
-  version "1.0.4-alpha.9"
-  resolved "https://registry.nlark.com/@tuya/connector/download/@tuya/connector-1.0.4-alpha.9.tgz#952b9d77116cfc0f82ddf813b3abce158cf13464"
-  integrity sha1-lSuddxFs/A+C3fgTs6vOFYzxNGQ=
+"@tuya/connector@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@tuya/connector/-/connector-1.0.4.tgz#e7c10825c4636effbba57a376753187786137744"
+  integrity sha512-rAA0WjC1yiSNG9En7LwgcDv5TLM968bv4XnPPlpIyZdqiQP0YE5jLdUvxfdkct3wHWNJM0yj6ObWTLlMasfMhw==
   dependencies:
     axios "^0.21.1"
     js-sha256 "^0.9.0"

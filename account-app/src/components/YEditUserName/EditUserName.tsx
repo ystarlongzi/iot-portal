@@ -18,15 +18,16 @@ const EditUserName = ({ userId, visible, nickName, onFinish }: IProps) => {
       modalStatus={visible}
       title={t('editUserName.title')}
       onConfirm={(value) => {
-        return apiService
-          .editAccountName(userId, value.nickName)
-          .then(() => {
-            onFinish(true);
-            return true;
-          })
-          .catch(() => {
-            return false;
-          });
+        return new Promise(() => {});
+        // return apiService
+        //   .editAccountName(userId, value.nickName)
+        //   .then(() => {
+        //     onFinish(true);
+        //     return true;
+        //   })
+        //   .catch(() => {
+        //     return false;
+        //   });
       }}
       onCancel={() => {
         onFinish(false);

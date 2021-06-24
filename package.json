@@ -1,0 +1,23 @@
+{
+  "name": "iot-portal",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "apps:install": "node ./bin/install.js",
+    "apps:build": "node ./bin/build.js",
+    "sync": "rm -rf ./dist/* && node ./bin/sync.js",
+    "build": "npm run build:all && npm run sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuya/iot-portal.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuya/iot-portal/issues"
+  },
+  "homepage": "https://github.com/tuya/iot-portal#readme",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}
