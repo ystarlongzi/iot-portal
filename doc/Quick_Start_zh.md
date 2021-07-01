@@ -182,7 +182,7 @@ yarn
 
 微前端分为主应用和子应用，启动配置稍有差异，下面分别启动主应用和子应用
 
-在启动主应用之前，请确保后端服务已启动，配套后端项目请访问xxxxxx
+在启动主应用之前，请确保后端服务已启动，配套后端项目请访问 [iot-suite-server](https://github.com/tuya/iot-suite-server/blob/feat_doc/README_zh.md)
 
 前端项目中默认请求的后端地址为 http://localhost:8080
 

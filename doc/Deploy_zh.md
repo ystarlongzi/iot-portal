@@ -4,6 +4,8 @@
 
 本项目依赖 `qiankun` 框架提供的微前端能力，如有其他部署需求，请移步 `qiankun` 官网查看 [qiankun部署说明](https://qiankun.umijs.org/zh/cookbook#%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2)
 
+后端项目地址 [iot-suite-server](https://github.com/tuya/iot-suite-server)
+
 ### 部署
 
 本项目采用的是前后端分离模式，所以前端可以理解为是静态文件集合

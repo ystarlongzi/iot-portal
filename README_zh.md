@@ -7,6 +7,8 @@ Tuya IoT Portal
 
 Tuya IoT Portal 是集成了设备、资产、角色、权限、账户等功能为一体的管理控制平台
 
+后端项目地址 [iot-suite-server](https://github.com/tuya/iot-suite-server)
+
 ## 说明文档
 
 - [安装](./doc/Installation_zh.md)
