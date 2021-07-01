@@ -82,7 +82,7 @@ nginx -v
 ----
 
 
-## 启动
+## 依赖与编译
 
 #### 创建服务运行目录
 Mac or Linux
@@ -216,3 +216,7 @@ yarn run build
 ```
 </details>
 
+
+### 启动与二次开发
+
+详情参见[快速开始](./Quick_Start_zh.md);

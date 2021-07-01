@@ -9,9 +9,9 @@ Tuya IoT Portal 是集成了设备、资产、角色、权限、账户等功能�
 
 ## 说明文档
 
-- [安装](./Installation_zh.md)
-- [部署](./Deploy_zh.md)
-- [Docker](./Docker_zh.md)
+- [安装](./doc/Installation_zh.md)
+- [部署](./doc/Deploy_zh.md)
+- [Docker](./doc/Docker_zh.md)
 
 
 ## 预览
