@@ -12,6 +12,9 @@
 ### Mac 或者 Linux 用户
 
 #### Nodejs
+
+<details>
+
 如宿主机已安装 `Nodejs`，请确保版本不低于 v12
 
 启动命令行工具 `Terminal`
@@ -45,6 +48,8 @@ node -v
 ```
 查看当前 node 版本情况，如能正确输出 v14.17.1, 则表示安装成功
 
+
+</details>
 
 ## 安装项目以及依赖
 
