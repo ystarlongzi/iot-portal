@@ -4,9 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://iot-app-smart-office.wgine-daily.com:7799', //日常环境
-
-      // target: 'https://iot-portal.fast-daily.tuya-inc.cn',
+      target: 'http://localhost:8080', //日常环境
       changeOrigin: true,
       pathRewrite: {
         '^/api': '',
