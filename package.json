@@ -6,7 +6,7 @@
     "apps:install": "node ./bin/install.js",
     "apps:build": "node ./bin/build.js",
     "sync": "rm -rf ./dist/* && node ./bin/sync.js",
-    "build": "npm run build:all && npm run sync"
+    "build": "npm run apps:build && npm run sync"
   },
   "repository": {
     "type": "git",
