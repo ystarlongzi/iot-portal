@@ -6,9 +6,9 @@ module.exports = function (app) {
     createProxyMiddleware({
       target: 'http://localhost:8080', //日常环境
       changeOrigin: true,
-      pathRewrite: {
-        '^/api': '',
-      },
+      // pathRewrite: {
+      //   '^/api': '',
+      // },
     }),
   );
 
