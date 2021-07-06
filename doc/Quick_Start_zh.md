@@ -35,17 +35,31 @@ git clone git@github.com:tuya/iot-portal.git
 
 ## 调试微应用
 
-微前端的架构，每个应用均为独立项目，有自己的独立依赖， 举个例子，如果要调试账户管理 `accont-app`，
+调试微应用的整体步骤：
 
-首先修改 `/account-app/src/setupProxy.js` 脚本, 确保后端接口地址代理配置正确， 并且服务已经启动；
+1. 启动 mail-app, 默认端口为 http://localhost:3000
+2. 启动需要调试的微应用，每个微应用端口不一定
+3. 通过主应用代理加载子应用资源进行调试, 
+
+微前端的架构，每个应用均为独立项目，有自己的独立依赖， 举个例子，如果要调试账户管理 `accont-app`，首先修改 `/account-app/src/setupProxy.js` 脚本, 确保后端接口地址代理配置正确， 并且服务已经启动；
+
+第一步： 启动子应用
 
 ```bash
-cd account-app/ # 进入微应用
+cd account-app # 进入需要调试的子应用
 npm install #安装依赖，只需执行一次
 npm run start # 启动调试服务
 ```
 
-启动之后， 调试页面会自动打开， 开始微应用开发之旅吧；
+第二步： 启动主应用
+
+```bash
+cd main-app # 进入微应用
+npm install #安装依赖，只需执行一次
+npm run start # 启动调试服务
+```
+
+启动之后， 调试页面（端口：3000）会自动打开， 开始微应用开发之旅吧；
 
 ## 构建和发布
 
