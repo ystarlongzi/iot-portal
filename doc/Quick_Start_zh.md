@@ -2,7 +2,7 @@
 
 ## 环境依赖
 
-- [Node.js]((https://nodejs.org/en/)) 建议安装 LTS 版本
+- [Node.js]((https://nodejs.org/en/) ， 建议安装 LTS 版本
 - Git, 用来 clone 代码
 - [Docker](https://www.docker.com)， 可选， 用于构建镜象
 - 可用的后端 API 服务
