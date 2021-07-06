@@ -1,16 +1,22 @@
 # 快速开始
 
+本项目是涂鸦应用开发框架前端部分，在启动之前需要先启动接口服务， [iot-suite-server](https://github.com/tuya/iot-suite-server/blob/feat_doc/README_zh.md)
+
+
 ## 环境依赖
 
 - [Node.js](https://nodejs.org/en/) ， 建议安装 LTS 版本
 - Git, 用来 clone 代码
 - [Docker](https://www.docker.com)， 可选， 用于构建镜象
-- 可用的后端 API 服务
 
 ## 下载代码
 
 ```bash
 git clone git@github.com:tuya/iot-portal.git
+
+# 或
+
+git clone https://github.com/tuya/iot-portal.git
 ```
 
 ### 代码结构
@@ -26,12 +32,12 @@ git clone git@github.com:tuya/iot-portal.git
   - /bin 命令脚本
   - /dist 构建后的静态资源
 ```
+
 ## 启动接口服务
 
 在启动主应用之前，请确保后端服务已启动，配套后端项目请访问 [iot-suite-server](https://github.com/tuya/iot-suite-server/blob/feat_doc/README_zh.md)
 
 前端项目中默认请求的后端地址为 http://localhost:8080
-
 
 ## 调试微应用
 
