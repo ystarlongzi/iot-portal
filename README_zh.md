@@ -1,3 +1,11 @@
+<center><p align="center"><img src="./tuya_logo.png" width="28%" height="28%" /></p></center>
+
+SaaS Development Framework Portal
+===
+
+
+[English](README.md) | [中文版](README_zh.md)
+
 本文将介绍如何在本地配置运行 IoT Suite 的前端项目，基于此您可以进行二次开发自己业务。如无二次开发定制需求，可通过 `Docker` 镜像做本地私有化部署，[Docker 镜像地址](https://hub.docker.com/r/iotportal/iot-suite) 和 [IoT Suite 后端 GitHub 源码地址](https://github.com/tuya/iot-portal/blob/feature/doc1/doc/Quick_Start_zh.md)。
 
 
