@@ -3,6 +3,9 @@
 SaaS Development Framework Portal
 ===
 
+[English](README.md) | [中文版](README_zh.md)
+
+
 This topic describes how to configure and run the IoT Suite frontend projects in local mode to meet your redevelopment requirements. If you do not need further development and customization, local private deployment can be done through the `Docker` image. For more information, see [Docker image](https://hub.docker.com/r/iotportal/iot-suite) and [GitHub Source Code for IoT Suite Backend](https://github.com/tuya/iot-portal/tree/feature/doc1/doc).
 
 
