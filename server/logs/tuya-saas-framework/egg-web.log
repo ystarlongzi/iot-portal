@@ -1,0 +1,151 @@
+2021-07-22 21:44:15,913 INFO 2903 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:44:15,932 INFO 2903 [egg-multipart] stream mode enable
+2021-07-22 21:44:16,064 INFO 2903 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:44:16,066 INFO 2903 [egg-security] use methodnoallow middleware
+2021-07-22 21:44:16,067 INFO 2903 [egg-security] use noopen middleware
+2021-07-22 21:44:16,068 INFO 2903 [egg-security] use nosniff middleware
+2021-07-22 21:44:16,068 INFO 2903 [egg-security] use xssProtection middleware
+2021-07-22 21:44:16,069 INFO 2903 [egg-security] use xframe middleware
+2021-07-22 21:44:16,069 INFO 2903 [egg-security] use dta middleware
+2021-07-22 21:44:16,069 INFO 2903 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:44:16,079 INFO 2903 [egg:core] dump config after load, 5ms
+2021-07-22 21:44:16,090 INFO 2903 [egg-watcher:application] watcher start success
+2021-07-22 21:44:16,096 INFO 2903 [egg:core] dump config after ready, 4ms
+2021-07-22 21:44:41,891 INFO 2918 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:44:41,919 INFO 2918 [egg-multipart] stream mode enable
+2021-07-22 21:44:42,052 INFO 2918 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:44:42,054 INFO 2918 [egg-security] use methodnoallow middleware
+2021-07-22 21:44:42,054 INFO 2918 [egg-security] use noopen middleware
+2021-07-22 21:44:42,055 INFO 2918 [egg-security] use nosniff middleware
+2021-07-22 21:44:42,056 INFO 2918 [egg-security] use xssProtection middleware
+2021-07-22 21:44:42,056 INFO 2918 [egg-security] use xframe middleware
+2021-07-22 21:44:42,057 INFO 2918 [egg-security] use dta middleware
+2021-07-22 21:44:42,057 INFO 2918 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:44:42,067 INFO 2918 [egg:core] dump config after load, 4ms
+2021-07-22 21:44:42,079 INFO 2918 [egg-watcher:application] watcher start success
+2021-07-22 21:44:42,085 INFO 2918 [egg:core] dump config after ready, 4ms
+2021-07-22 21:44:54,589 INFO 2946 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:44:54,608 INFO 2946 [egg-multipart] stream mode enable
+2021-07-22 21:44:54,676 INFO 2946 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:44:54,678 INFO 2946 [egg-security] use methodnoallow middleware
+2021-07-22 21:44:54,678 INFO 2946 [egg-security] use noopen middleware
+2021-07-22 21:44:54,678 INFO 2946 [egg-security] use nosniff middleware
+2021-07-22 21:44:54,679 INFO 2946 [egg-security] use xssProtection middleware
+2021-07-22 21:44:54,679 INFO 2946 [egg-security] use xframe middleware
+2021-07-22 21:44:54,679 INFO 2946 [egg-security] use dta middleware
+2021-07-22 21:44:54,679 INFO 2946 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:44:54,685 INFO 2946 [egg:core] dump config after load, 3ms
+2021-07-22 21:44:54,696 INFO 2946 [egg-watcher:application] watcher start success
+2021-07-22 21:44:54,702 INFO 2946 [egg:core] dump config after ready, 4ms
+2021-07-22 21:52:45,537 INFO 3106 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:52:45,563 INFO 3106 [egg-multipart] stream mode enable
+2021-07-22 21:52:45,710 INFO 3106 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:52:45,712 INFO 3106 [egg-security] use methodnoallow middleware
+2021-07-22 21:52:45,713 INFO 3106 [egg-security] use noopen middleware
+2021-07-22 21:52:45,714 INFO 3106 [egg-security] use nosniff middleware
+2021-07-22 21:52:45,715 INFO 3106 [egg-security] use xssProtection middleware
+2021-07-22 21:52:45,715 INFO 3106 [egg-security] use xframe middleware
+2021-07-22 21:52:45,716 INFO 3106 [egg-security] use dta middleware
+2021-07-22 21:52:45,716 INFO 3106 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:52:45,728 INFO 3106 [egg:core] dump config after load, 7ms
+2021-07-22 21:52:45,737 INFO 3106 [egg-watcher:application] watcher start success
+2021-07-22 21:52:45,743 INFO 3106 [egg:core] dump config after ready, 4ms
+2021-07-22 21:52:50,726 INFO 3129 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:52:50,746 INFO 3129 [egg-multipart] stream mode enable
+2021-07-22 21:52:50,814 INFO 3129 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:52:50,816 INFO 3129 [egg-security] use methodnoallow middleware
+2021-07-22 21:52:50,816 INFO 3129 [egg-security] use noopen middleware
+2021-07-22 21:52:50,817 INFO 3129 [egg-security] use nosniff middleware
+2021-07-22 21:52:50,817 INFO 3129 [egg-security] use xssProtection middleware
+2021-07-22 21:52:50,817 INFO 3129 [egg-security] use xframe middleware
+2021-07-22 21:52:50,817 INFO 3129 [egg-security] use dta middleware
+2021-07-22 21:52:50,817 INFO 3129 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:52:50,823 INFO 3129 [egg:core] dump config after load, 3ms
+2021-07-22 21:52:50,834 INFO 3129 [egg-watcher:application] watcher start success
+2021-07-22 21:52:50,840 INFO 3129 [egg:core] dump config after ready, 4ms
+2021-07-22 21:53:46,506 INFO 3149 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:53:46,535 INFO 3149 [egg-multipart] stream mode enable
+2021-07-22 21:53:46,687 INFO 3149 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:53:46,689 INFO 3149 [egg-security] use methodnoallow middleware
+2021-07-22 21:53:46,689 INFO 3149 [egg-security] use noopen middleware
+2021-07-22 21:53:46,690 INFO 3149 [egg-security] use nosniff middleware
+2021-07-22 21:53:46,691 INFO 3149 [egg-security] use xssProtection middleware
+2021-07-22 21:53:46,691 INFO 3149 [egg-security] use xframe middleware
+2021-07-22 21:53:46,692 INFO 3149 [egg-security] use dta middleware
+2021-07-22 21:53:46,692 INFO 3149 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:53:46,703 INFO 3149 [egg:core] dump config after load, 6ms
+2021-07-22 21:53:46,715 INFO 3149 [egg-watcher:application] watcher start success
+2021-07-22 21:53:46,722 INFO 3149 [egg:core] dump config after ready, 4ms
+2021-07-22 21:54:05,551 INFO 3157 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-22 21:54:05,576 INFO 3157 [egg-multipart] stream mode enable
+2021-07-22 21:54:05,704 INFO 3157 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/server/app/public
+2021-07-22 21:54:05,706 INFO 3157 [egg-security] use methodnoallow middleware
+2021-07-22 21:54:05,707 INFO 3157 [egg-security] use noopen middleware
+2021-07-22 21:54:05,708 INFO 3157 [egg-security] use nosniff middleware
+2021-07-22 21:54:05,708 INFO 3157 [egg-security] use xssProtection middleware
+2021-07-22 21:54:05,709 INFO 3157 [egg-security] use xframe middleware
+2021-07-22 21:54:05,709 INFO 3157 [egg-security] use dta middleware
+2021-07-22 21:54:05,709 INFO 3157 [egg-security] compose 6 middlewares into one security middleware
+2021-07-22 21:54:05,717 INFO 3157 [egg:core] dump config after load, 4ms
+2021-07-22 21:54:05,728 INFO 3157 [egg-watcher:application] watcher start success
+2021-07-22 21:54:05,733 INFO 3157 [egg:core] dump config after ready, 4ms
+2021-07-23 11:24:21,704 INFO 6143 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-23 11:24:21,723 INFO 6143 [egg-multipart] stream mode enable
+2021-07-23 11:24:21,902 INFO 6143 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/dist
+2021-07-23 11:24:21,905 INFO 6143 [egg-security] use methodnoallow middleware
+2021-07-23 11:24:21,905 INFO 6143 [egg-security] use noopen middleware
+2021-07-23 11:24:21,906 INFO 6143 [egg-security] use nosniff middleware
+2021-07-23 11:24:21,907 INFO 6143 [egg-security] use xssProtection middleware
+2021-07-23 11:24:21,907 INFO 6143 [egg-security] use xframe middleware
+2021-07-23 11:24:21,908 INFO 6143 [egg-security] use dta middleware
+2021-07-23 11:24:21,908 INFO 6143 [egg-security] compose 6 middlewares into one security middleware
+2021-07-23 11:24:21,918 INFO 6143 [egg:core] dump config after load, 6ms
+2021-07-23 11:24:21,932 INFO 6143 [egg-watcher:application] watcher start success
+2021-07-23 11:24:21,937 INFO 6143 [egg:core] dump config after ready, 3ms
+2021-07-23 11:26:31,841 INFO 6600 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-23 11:26:31,864 INFO 6600 [egg-multipart] stream mode enable
+2021-07-23 11:26:32,000 INFO 6600 [egg-static] starting static serve /public/ -> /Users/will/work/github/iot-portal/dist
+2021-07-23 11:26:32,002 INFO 6600 [egg-security] use methodnoallow middleware
+2021-07-23 11:26:32,002 INFO 6600 [egg-security] use noopen middleware
+2021-07-23 11:26:32,003 INFO 6600 [egg-security] use nosniff middleware
+2021-07-23 11:26:32,004 INFO 6600 [egg-security] use xssProtection middleware
+2021-07-23 11:26:32,005 INFO 6600 [egg-security] use xframe middleware
+2021-07-23 11:26:32,005 INFO 6600 [egg-security] use dta middleware
+2021-07-23 11:26:32,005 INFO 6600 [egg-security] compose 6 middlewares into one security middleware
+2021-07-23 11:26:32,015 INFO 6600 [egg:core] dump config after load, 5ms
+2021-07-23 11:26:32,028 INFO 6600 [egg-watcher:application] watcher start success
+2021-07-23 11:26:32,034 INFO 6600 [egg:core] dump config after ready, 4ms
+2021-07-23 11:28:59,808 WARN 6600 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-23 11:28:59,809 WARN 6600 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-23 11:30:22,506 INFO 6879 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-23 11:30:22,537 INFO 6879 [egg-multipart] stream mode enable
+2021-07-23 11:30:22,689 INFO 6879 [egg-static] starting static serve  -> /Users/will/work/github/iot-portal/dist
+2021-07-23 11:30:22,691 INFO 6879 [egg-security] use methodnoallow middleware
+2021-07-23 11:30:22,692 INFO 6879 [egg-security] use noopen middleware
+2021-07-23 11:30:22,692 INFO 6879 [egg-security] use nosniff middleware
+2021-07-23 11:30:22,693 INFO 6879 [egg-security] use xssProtection middleware
+2021-07-23 11:30:22,694 INFO 6879 [egg-security] use xframe middleware
+2021-07-23 11:30:22,694 INFO 6879 [egg-security] use dta middleware
+2021-07-23 11:30:22,694 INFO 6879 [egg-security] compose 6 middlewares into one security middleware
+2021-07-23 11:30:22,703 INFO 6879 [egg:core] dump config after load, 4ms
+2021-07-23 11:30:22,713 INFO 6879 [egg-watcher:application] watcher start success
+2021-07-23 11:30:22,719 INFO 6879 [egg:core] dump config after ready, 3ms
+2021-07-23 11:40:47,478 INFO 7602 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-23 11:40:47,513 INFO 7602 [egg-multipart] stream mode enable
+2021-07-23 11:40:47,684 INFO 7602 [egg-static] starting static serve  -> /Users/will/work/github/iot-portal/dist
+2021-07-23 11:40:47,686 INFO 7602 [egg-security] use methodnoallow middleware
+2021-07-23 11:40:47,687 INFO 7602 [egg-security] use noopen middleware
+2021-07-23 11:40:47,688 INFO 7602 [egg-security] use nosniff middleware
+2021-07-23 11:40:47,688 INFO 7602 [egg-security] use xssProtection middleware
+2021-07-23 11:40:47,689 INFO 7602 [egg-security] use xframe middleware
+2021-07-23 11:40:47,690 INFO 7602 [egg-security] use dta middleware
+2021-07-23 11:40:47,690 INFO 7602 [egg-security] compose 6 middlewares into one security middleware
+2021-07-23 11:40:47,700 INFO 7602 [egg:core] dump config after load, 6ms
+2021-07-23 11:40:47,712 INFO 7602 [egg-watcher:application] watcher start success
+2021-07-23 11:40:47,718 INFO 7602 [egg:core] dump config after ready, 4ms
+2021-07-23 12:01:00,606 WARN 7602 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-23 12:01:00,626 WARN 7602 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-23 13:30:28,059 WARN 7602 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-23 13:30:28,061 WARN 7602 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-23 13:53:33,666 WARN 7602 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-23 13:53:33,667 WARN 7602 [ClusterClient:Watcher] follower closed, and try to init it again

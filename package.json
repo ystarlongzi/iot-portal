@@ -1,11 +1,13 @@
 {
   "name": "iot-portal",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "",
   "scripts": {
     "apps:install": "node ./bin/install.js",
     "apps:build": "node ./bin/build.js",
     "sync": "rm -rf ./dist/* && node ./bin/sync.js",
+    "start:server": "cd ./server && npm run start",
+    "stop:server": "cd ./server && npm run stop",
     "build": "npm run apps:build && npm run sync"
   },
   "repository": {

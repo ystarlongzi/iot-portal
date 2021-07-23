@@ -1,0 +1,48 @@
+2021-07-22 21:44:16,100 INFO 2899 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24343902ms at 2021-07-23 04:30:00.002
+2021-07-22 21:44:16,100 INFO 2899 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8143900ms at 2021-07-23 00:00:00.000
+2021-07-22 21:44:16,101 INFO 2899 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8144900ms at 2021-07-23 00:00:01.000
+2021-07-22 21:44:15,932 INFO 2903 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:44:15,932 INFO 2903 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:44:15,932 INFO 2903 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:44:41,918 INFO 2918 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:44:41,918 INFO 2918 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:44:41,918 INFO 2918 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:44:54,706 INFO 2945 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24305296ms at 2021-07-23 04:30:00.002
+2021-07-22 21:44:54,707 INFO 2945 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8105294ms at 2021-07-23 00:00:00.001
+2021-07-22 21:44:54,707 INFO 2945 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8106293ms at 2021-07-23 00:00:01.000
+2021-07-22 21:44:54,607 INFO 2946 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:44:54,607 INFO 2946 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:44:54,607 INFO 2946 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:52:45,563 INFO 3106 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:52:45,563 INFO 3106 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:52:45,563 INFO 3106 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:52:50,844 INFO 3128 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23829158ms at 2021-07-23 04:30:00.002
+2021-07-22 21:52:50,844 INFO 3128 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7629156ms at 2021-07-23 00:00:00.000
+2021-07-22 21:52:50,845 INFO 3128 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7630156ms at 2021-07-23 00:00:01.001
+2021-07-22 21:52:50,745 INFO 3129 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:52:50,745 INFO 3129 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:52:50,745 INFO 3129 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:53:46,534 INFO 3149 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:53:46,534 INFO 3149 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:53:46,534 INFO 3149 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-22 21:54:05,576 INFO 3157 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-22 21:54:05,576 INFO 3157 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-22 21:54:05,576 INFO 3157 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-23 11:24:21,942 INFO 6142 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61538060ms at 2021-07-24 04:30:00.002
+2021-07-23 11:24:21,943 INFO 6142 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45338057ms at 2021-07-24 00:00:00.000
+2021-07-23 11:24:21,943 INFO 6142 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45339057ms at 2021-07-24 00:00:01.000
+2021-07-23 11:24:21,722 INFO 6143 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-23 11:24:21,722 INFO 6143 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-23 11:24:21,722 INFO 6143 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-23 11:26:31,864 INFO 6600 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-23 11:26:31,864 INFO 6600 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-23 11:26:31,864 INFO 6600 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-23 11:26:32,039 INFO 6597 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61407963ms at 2021-07-24 04:30:00.002
+2021-07-23 11:26:32,039 INFO 6597 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45207961ms at 2021-07-24 00:00:00.000
+2021-07-23 11:26:32,040 INFO 6597 [Timer] /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45208961ms at 2021-07-24 00:00:01.001
+2021-07-23 11:30:22,537 INFO 6879 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-23 11:30:22,537 INFO 6879 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-23 11:30:22,537 INFO 6879 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-23 11:40:47,512 INFO 7602 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-23 11:40:47,512 INFO 7602 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-23 11:40:47,512 INFO 7602 [egg-schedule]: register schedule /Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

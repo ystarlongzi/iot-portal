@@ -1,0 +1,280 @@
+{
+  "keys": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+  "security": {
+    "csrf": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+    "domainWhiteList": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "static": {
+    "dir": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+    "prefix": "/Users/will/work/github/iot-portal/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/will/work/github/iot-portal/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/will/work/github/iot-portal/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/will/work/github/iot-portal/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/will/work/github/iot-portal/server/node_modules/egg-static/config/config.default.js"
+  },
+  "middleware": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+  "proxy": {
+    "/api": {
+      "target": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+      "changeOrigin": "/Users/will/work/github/iot-portal/server/config/config.default.js",
+      "secure": "/Users/will/work/github/iot-portal/server/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/will/work/github/iot-portal/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/will/work/github/iot-portal/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/will/work/github/iot-portal/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/will/work/github/iot-portal/server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/will/work/github/iot-portal/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/will/work/github/iot-portal/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/will/work/github/iot-portal/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/will/work/github/iot-portal/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/will/work/github/iot-portal/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/will/work/github/iot-portal/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/will/work/github/iot-portal/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/will/work/github/iot-portal/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/will/work/github/iot-portal/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/will/work/github/iot-portal/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/will/work/github/iot-portal/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/will/work/github/iot-portal/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/will/work/github/iot-portal/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/will/work/github/iot-portal/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/will/work/github/iot-portal/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/will/work/github/iot-portal/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/will/work/github/iot-portal/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/will/work/github/iot-portal/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/will/work/github/iot-portal/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/will/work/github/iot-portal/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/will/work/github/iot-portal/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/will/work/github/iot-portal/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/will/work/github/iot-portal/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@babel/runtime": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "egg-http-proxy-middleware": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "egg-view-assets": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "babel-eslint": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "eslint-config-prettier": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "eslint-plugin-babel": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "build": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "sync": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "license": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/will/work/github/iot-portal/server/node_modules/egg/config/config.default.js"
+}

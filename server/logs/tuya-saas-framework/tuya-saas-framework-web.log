@@ -1,0 +1,76 @@
+2021-07-22 21:44:21,194 ERROR 2903 [-/::1/-/6ms GET /api/assets/tree/-1] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/will/work/github/iot-portal/server/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/will/work/github/iot-portal/server/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/will/work/github/iot-portal/server/app/controller/home.js:7:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/will/work/github/iot-portal/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/will/work/github/iot-portal/server/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 2903
+hostname: willdeMacBook-Pro.local
+
+2021-07-22 21:44:44,462 ERROR 2918 [-/::1/-/6ms GET /api/assets/tree/-1] nodejs.AssertionError: Can't find viewEngine for /Users/will/work/github/iot-portal/server/app/view/index.html
+    at ContextView.[contextView#render] (/Users/will/work/github/iot-portal/server/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Users/will/work/github/iot-portal/server/app/controller/home.js:7:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/will/work/github/iot-portal/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/will/work/github/iot-portal/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 2918
+hostname: willdeMacBook-Pro.local
+
+2021-07-22 21:44:59,049 ERROR 2946 [-/::1/-/5ms GET /api/assets/tree/-1] nodejs.AssertionError: Can't find viewEngine for /Users/will/work/github/iot-portal/server/app/view/index.html
+    at ContextView.[contextView#render] (/Users/will/work/github/iot-portal/server/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Users/will/work/github/iot-portal/server/app/controller/home.js:7:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/will/work/github/iot-portal/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/will/work/github/iot-portal/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 2946
+hostname: willdeMacBook-Pro.local
+
+2021-07-22 21:52:55,842 ERROR 3129 [-/::1/-/5ms GET /api/assets/tree/-1] nodejs.AssertionError: Can't find viewEngine for /Users/will/work/github/iot-portal/server/app/view/index.html
+    at ContextView.[contextView#render] (/Users/will/work/github/iot-portal/server/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Users/will/work/github/iot-portal/server/app/controller/home.js:7:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/will/work/github/iot-portal/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/will/work/github/iot-portal/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/will/work/github/iot-portal/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/will/work/github/iot-portal/server/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 3129
+hostname: willdeMacBook-Pro.local
+

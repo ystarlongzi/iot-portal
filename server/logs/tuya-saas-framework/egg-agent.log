@@ -1,0 +1,94 @@
+2021-07-22 21:44:15,354 INFO 2899 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-22 21:44:15,360 INFO 2899 [egg:core] dump config after load, 3ms
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: ["/Users/will/work/github/iot-portal/server/app","/Users/will/work/github/iot-portal/server/config","/Users/will/work/github/iot-portal/server/mocks","/Users/will/work/github/iot-portal/server/mocks_proxy","/Users/will/work/github/iot-portal/server/app.js"]
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app"
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/config"
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks"
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks_proxy"
+2021-07-22 21:44:15,407 INFO 2899 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app.js"
+2021-07-22 21:44:15,408 INFO 2899 [egg-watcher:agent] watcher start success
+2021-07-22 21:44:15,428 INFO 2899 [egg:core] dump config after ready, 3ms
+2021-07-22 21:44:40,912 WARN 2899 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/config/config.default.js change
+2021-07-22 21:44:40,707 INFO 2899 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775821,"size":966,"blocks":8,"atimeMs":1626961135998.9302,"mtimeMs":1626961480645.3176,"ctimeMs":1626961480645.3176,"birthtimeMs":1626946485710.8623,"atime":"2021-07-22T13:38:55.999Z","mtime":"2021-07-22T13:44:40.645Z","ctime":"2021-07-22T13:44:40.645Z","birthtime":"2021-07-22T09:34:45.711Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-22 21:44:54,100 INFO 2945 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-22 21:44:54,107 INFO 2945 [egg:core] dump config after load, 2ms
+2021-07-22 21:44:54,145 INFO 2945 [egg-watcher] Start watching: ["/Users/will/work/github/iot-portal/server/app","/Users/will/work/github/iot-portal/server/config","/Users/will/work/github/iot-portal/server/mocks","/Users/will/work/github/iot-portal/server/mocks_proxy","/Users/will/work/github/iot-portal/server/app.js"]
+2021-07-22 21:44:54,145 INFO 2945 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app"
+2021-07-22 21:44:54,145 INFO 2945 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/config"
+2021-07-22 21:44:54,145 INFO 2945 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks"
+2021-07-22 21:44:54,146 INFO 2945 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks_proxy"
+2021-07-22 21:44:54,146 INFO 2945 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app.js"
+2021-07-22 21:44:54,146 INFO 2945 [egg-watcher:agent] watcher start success
+2021-07-22 21:44:54,159 INFO 2945 [egg:core] dump config after ready, 4ms
+2021-07-22 21:52:44,308 INFO 2945 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775822,"size":173,"blocks":8,"atimeMs":1626961147986.8354,"mtimeMs":1626961964243.137,"ctimeMs":1626961964243.137,"birthtimeMs":1626946485711.4104,"atime":"2021-07-22T13:39:07.987Z","mtime":"2021-07-22T13:52:44.243Z","ctime":"2021-07-22T13:52:44.243Z","birthtime":"2021-07-22T09:34:45.711Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-22 21:52:44,514 WARN 2945 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/config/plugin.js change
+2021-07-22 21:52:50,230 INFO 3128 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-22 21:52:50,236 INFO 3128 [egg:core] dump config after load, 3ms
+2021-07-22 21:52:50,269 INFO 3128 [egg-watcher] Start watching: ["/Users/will/work/github/iot-portal/server/app","/Users/will/work/github/iot-portal/server/config","/Users/will/work/github/iot-portal/server/mocks","/Users/will/work/github/iot-portal/server/mocks_proxy","/Users/will/work/github/iot-portal/server/app.js"]
+2021-07-22 21:52:50,269 INFO 3128 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app"
+2021-07-22 21:52:50,269 INFO 3128 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/config"
+2021-07-22 21:52:50,270 INFO 3128 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks"
+2021-07-22 21:52:50,270 INFO 3128 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks_proxy"
+2021-07-22 21:52:50,270 INFO 3128 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app.js"
+2021-07-22 21:52:50,270 INFO 3128 [egg-watcher:agent] watcher start success
+2021-07-22 21:52:50,282 INFO 3128 [egg:core] dump config after ready, 3ms
+2021-07-22 21:53:45,282 INFO 3128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775821,"size":1000,"blocks":8,"atimeMs":1626961482078.0007,"mtimeMs":1626962025219.1304,"ctimeMs":1626962025219.1304,"birthtimeMs":1626946485710.8623,"atime":"2021-07-22T13:44:42.078Z","mtime":"2021-07-22T13:53:45.219Z","ctime":"2021-07-22T13:53:45.219Z","birthtime":"2021-07-22T09:34:45.711Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-22 21:53:45,487 WARN 3128 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/config/config.default.js change
+2021-07-22 21:54:04,708 WARN 3128 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/config/plugin.js change
+2021-07-22 21:54:04,504 INFO 3128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775822,"size":185,"blocks":8,"atimeMs":1626961965736.603,"mtimeMs":1626962044442.5073,"ctimeMs":1626962044442.5073,"birthtimeMs":1626946485711.4104,"atime":"2021-07-22T13:52:45.737Z","mtime":"2021-07-22T13:54:04.443Z","ctime":"2021-07-22T13:54:04.443Z","birthtime":"2021-07-22T09:34:45.711Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-23 11:24:21,160 INFO 6142 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-23 11:24:21,167 INFO 6142 [egg:core] dump config after load, 3ms
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: ["/Users/will/work/github/iot-portal/server/app","/Users/will/work/github/iot-portal/server/config","/Users/will/work/github/iot-portal/server/mocks","/Users/will/work/github/iot-portal/server/mocks_proxy","/Users/will/work/github/iot-portal/server/app.js"]
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app"
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/config"
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks"
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks_proxy"
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app.js"
+2021-07-23 11:24:21,210 INFO 6142 [egg-watcher:agent] watcher start success
+2021-07-23 11:24:21,224 INFO 6142 [egg:core] dump config after ready, 3ms
+2021-07-23 11:26:30,992 INFO 6597 [egg:logger] init all loggers with options: {"dir":"/Users/will/work/github/iot-portal/server/logs/tuya-saas-framework","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tuya-saas-framework-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-23 11:26:30,999 INFO 6597 [egg:core] dump config after load, 3ms
+2021-07-23 11:26:31,043 INFO 6597 [egg-watcher] Start watching: ["/Users/will/work/github/iot-portal/server/app","/Users/will/work/github/iot-portal/server/config","/Users/will/work/github/iot-portal/server/mocks","/Users/will/work/github/iot-portal/server/mocks_proxy","/Users/will/work/github/iot-portal/server/app.js"]
+2021-07-23 11:26:31,043 INFO 6597 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app"
+2021-07-23 11:26:31,044 INFO 6597 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/config"
+2021-07-23 11:26:31,044 INFO 6597 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks"
+2021-07-23 11:26:31,044 INFO 6597 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/mocks_proxy"
+2021-07-23 11:26:31,044 INFO 6597 [egg-watcher] Start watching: "/Users/will/work/github/iot-portal/server/app.js"
+2021-07-23 11:26:31,044 INFO 6597 [egg-watcher:agent] watcher start success
+2021-07-23 11:26:31,058 INFO 6597 [egg:core] dump config after ready, 3ms
+2021-07-23 11:28:11,065 ERROR 6597 nodejs.ClusterClientNoResponseError: client no response in 79018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/will/work/github/iot-portal/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 6597
+hostname: willdeMacBook-Pro.local
+
+2021-07-23 11:30:21,291 WARN 6597 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/config/config.default.js change
+2021-07-23 11:30:21,085 INFO 6597 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775821,"size":1090,"blocks":8,"atimeMs":1627007565980.6118,"mtimeMs":1627011021019.4492,"ctimeMs":1627011021019.4492,"birthtimeMs":1626946485710.8623,"atime":"2021-07-23T02:32:45.981Z","mtime":"2021-07-23T03:30:21.019Z","ctime":"2021-07-23T03:30:21.019Z","birthtime":"2021-07-22T09:34:45.711Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-23 11:40:46,297 WARN 6597 [agent:development] reload worker because /Users/will/work/github/iot-portal/server/app/controller/home.js change
+2021-07-23 11:40:46,089 INFO 6597 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/will/work/github/iot-portal/server/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":3775384,"size":235,"blocks":8,"atimeMs":1627010198616.944,"mtimeMs":1627011646025.6663,"ctimeMs":1627011646025.6663,"birthtimeMs":1626946485446.8635,"atime":"2021-07-23T03:16:38.617Z","mtime":"2021-07-23T03:40:46.026Z","ctime":"2021-07-23T03:40:46.026Z","birthtime":"2021-07-22T09:34:45.447Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-23 12:01:00,631 ERROR 6597 nodejs.ClusterClientNoResponseError: client no response in 192585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/will/work/github/iot-portal/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 6597
+hostname: willdeMacBook-Pro.local
+
+2021-07-23 13:30:28,068 ERROR 6597 nodejs.ClusterClientNoResponseError: client no response in 2086542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/will/work/github/iot-portal/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 6597
+hostname: willdeMacBook-Pro.local
+
+2021-07-23 13:53:33,669 ERROR 6597 nodejs.ClusterClientNoResponseError: client no response in 1344888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/will/work/github/iot-portal/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 6597
+hostname: willdeMacBook-Pro.local
+

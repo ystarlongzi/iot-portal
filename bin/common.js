@@ -1,14 +1,15 @@
 const fspromises = require("fs/promises");
+const { resolve } = require('path');
 
 // load app paths
 const getAllAppPath = () => {
-    return fspromises.readdir(process.cwd()).then((paths) => {
-      const appPaths = paths.filter((item) => {
-        return /.*\-app$/.test(item);
-      });
-      return appPaths;
+  const appPath = resolve(process.cwd(), 'applications');
+  return fspromises.readdir(appPath).then((paths) => {
+    const appPaths = paths.filter((item) => {
+      return /.*\-app$/.test(item);
     });
-  };
-  
-  module.exports.getAllAppPath = getAllAppPath;
-  
+    return appPaths;
+  });
+};
+
+module.exports.getAllAppPath = getAllAppPath;
