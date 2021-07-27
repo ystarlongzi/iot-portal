@@ -2,3 +2,32 @@ Server listening at http://localhost:7001
 Server listening at http://localhost:7001
 Server listening at http://localhost:7001
 Server listening at http://localhost:7001
+Server listening at http://127.0.0.1:8888
+events.js:352
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8888
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/Users/will/work/github/iot-portal/server/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/will/work/github/iot-portal/server/index.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 8888
+}
+Error: ENOENT: no such file or directory, stat '/Users/will/work/github/iot-portal/dist/main-app/index.html'
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+Server listening at http://127.0.0.1:8888

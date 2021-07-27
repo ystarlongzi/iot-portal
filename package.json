@@ -6,7 +6,7 @@
     "apps:install": "node ./bin/install.js",
     "apps:build": "node ./bin/build.js",
     "sync": "rm -rf ./dist/* && node ./bin/sync.js",
-    "start": "cd ./server && npm run start",
+    "start": "cd ./server && sh ./bin/start.sh",
     "start:server": "cd ./server && sh ./bin/start.sh",
     "start:dev": "node ./bin/dev.js",
     "stop": "cd ./server && sh ./bin/stop.sh",

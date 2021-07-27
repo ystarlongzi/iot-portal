@@ -1,5 +1,5 @@
 const child_process = require("child_process");
-const { getAllAppPath } = require("./common");
+const { getAllAppPath, getAllAppAbsolutePath } = require("./common");
 const { resolve } = require('path');
 
 function install(path) {
@@ -17,7 +17,7 @@ function install(path) {
 }
 
 async function main() {
-  const paths = await getAllAppPath();
+  const paths = await getAllAppAbsolutePath(true);
   for await (let item of paths) {
     install(resolve(item)).then(() => {
       console.log(item, ' install successfully');

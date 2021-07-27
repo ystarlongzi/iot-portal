@@ -2,16 +2,20 @@ const path = require('path');
 const proxy = require('express-http-proxy');
 const app = require('express')();
 const serveStatic = require('serve-static');
+const open = require('open');
 
 const port = '8888';
 
 app.use(
   '/api',
-  proxy('http://127.0.0.1:8000', {
+  proxy('http://localhost', {
     proxyReqPathResolver: function (req) {
-      // console.log(req);
       const { originalUrl } = req;
-      return originalUrl.replace('/api', '');
+      // 后端服务的路径无/api，需在前端剔除此部分
+      // return originalUrl.replace('/api', '');
+
+      // docker 请求不转译
+      return originalUrl;
     },
   }),
 );
@@ -25,5 +29,8 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://127.0.0.1:${port}`);
+  if (process.env.debug) {
+    open(`http://127.0.0.1:${port}`);
+  }
 });

@@ -1,5 +1,5 @@
 const child_process = require("child_process");
-const { getAllAppPath } = require("./common");
+const { getAllAppAbsolutePath } = require("./common");
 const { resolve } = require('path');
 
 function build(path) {
@@ -17,7 +17,7 @@ function build(path) {
 }
 
 async function main() {
-  const paths = await getAllAppPath();
+  const paths = await getAllAppAbsolutePath();
   const promiseArr = [];
   for (let item of paths) {
     promiseArr.push(build(resolve(item)).then(() => {

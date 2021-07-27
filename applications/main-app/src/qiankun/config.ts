@@ -20,7 +20,7 @@ const qiankunConfig = [
     name: 'iot-suite-asset',
     entry: (() => {
       // const { restAddr } = getDomain();
-      return `/asset-app`;
+      return `/asset-app/`;
     })(),
     container: '#container',
     activeRule: '/asset',
@@ -30,7 +30,7 @@ const qiankunConfig = [
     name: 'iot-suite-device',
     entry: (() => {
       // const { restAddr } = getDomain();
-      return `/device-app`;
+      return `/device-app/`;
     })(),
     container: '#container',
     activeRule: '/device',
@@ -40,7 +40,7 @@ const qiankunConfig = [
     name: 'iot-suite-account',
     entry: (() => {
       // const { restAddr } = getDomain();
-      return `/account-app`;
+      return `/account-app/`;
     })(),
     container: '#container',
     activeRule: '/account',
@@ -53,7 +53,7 @@ const qiankunConfig = [
     name: 'iot-suite-permission',
     entry: (() => {
       // const { restAddr } = getDomain();
-      return `/permission-app`;
+      return `/permission-app/`;
     })(),
     container: '#container',
     activeRule: '/permission',

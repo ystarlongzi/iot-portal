@@ -10,7 +10,7 @@ module.exports = {
       config.output.libraryTarget = 'umd';
       config.output.jsonpFunction = `webpackJsonp_${name}`;
       config.output.globalObject = 'window';
-      config.output.publicPath = '/permission-app';
+      config.output.publicPath = webpackEnv !== 'production' ? '' : '/permission-app';
       paths.appBuild = path.join(path.dirname(paths.appBuild), `dist`);
       config.output.path = paths.appBuild;
 

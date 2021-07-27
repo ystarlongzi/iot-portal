@@ -24,7 +24,7 @@ const main = async () => {
   }
   const paths = await getAllAppPath();
   for await (let item of paths) {
-    copyDir(resolve(item, "dist"), resolve("dist", item)).then(() => {
+    copyDir(resolve(__dirname, '../applications', item, "dist"), resolve("dist", item)).then(() => {
       console.log(item, 'sync successfully');
     }).catch((err) => {
       console.error(item, err);

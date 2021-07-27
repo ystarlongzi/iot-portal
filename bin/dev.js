@@ -22,19 +22,19 @@ async function dev(appName) {
   console.log('appName:', appName);
   const paths = await getAllAppPath();
   if (paths.includes(appName)) {
-    // 主应用
+    // // 主应用
     // if (appName !== 'main-app') {
-    //   const mainApp = new DevServer('main-app', {
-    //     baseDir: path.resolve(__dirname, '../applications', 'main-app'),
+    //   const subApp = new DevServer(appName, {
+    //     baseDir: path.resolve(__dirname, '../applications', appName),
     //   });
-    //   return mainApp.ready().then(() => {
+    //   return subApp.ready().then(() => {
     //     // 子应用
-    //     new DevServer(appName, {
-    //       baseDir: path.resolve(__dirname, '../applications', appName),
+    //     new DevServer('main-app', {
+    //       baseDir: path.resolve(__dirname, '../applications', 'main-app'),
     //     });
     //   });
     // }
-    // 子应用
+    // // 子应用
     new DevServer(appName, {
       baseDir: path.resolve(__dirname, '../applications', appName),
     });

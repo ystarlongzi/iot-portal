@@ -13,7 +13,7 @@ module.exports = {
       config.output.jsonpFunction = `webpackJsonp_${name}`;
       config.output.globalObject = 'window';
       // config.output.publicPath = `/${name}`;
-      config.output.publicPath = '/asset-app';
+      config.output.publicPath = webpackEnv !== 'production' ? '' : '/asset-app';
       paths.appBuild = path.join(path.dirname(paths.appBuild), `dist`);
       config.output.path = paths.appBuild;
 
@@ -30,6 +30,9 @@ module.exports = {
     config.hot = false;
     config.watchContentBase = false;
     config.liveReload = false;
+    config.contentBasePublicPath = '/asset-app';
+    config.publicPath = '/asset-app/';
+    console.log('devServer config', config);
     return config;
   },
   plugins: [

@@ -13,7 +13,7 @@ module.exports = {
       config.output.jsonpFunction = `webpackJsonp_${name}`;
       config.output.globalObject = 'window';
       // config.output.publicPath = `/${name}`;
-      config.output.publicPath = '/device-app';
+      config.output.publicPath = webpackEnv !== 'production' ? '' : '/device-app';
       paths.appBuild = path.join(path.dirname(paths.appBuild), `dist`);
       config.output.path = paths.appBuild;
 

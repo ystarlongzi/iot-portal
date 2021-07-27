@@ -33,7 +33,7 @@ class DevServer extends Base {
       command: 'npm run start',
       port: 3000,
       env: {},
-      debug: false,
+      debug: true,
       timeout: 60 * 1000,
       waitStart: false,
     },
@@ -55,9 +55,10 @@ class DevServer extends Base {
       path: path.resolve(__dirname, '../applications/', this.appName, '.env'),
     });
     if (envResult?.parsed.PORT) {
-      devServer.port = envResult.parsed.PORT;
+      devServer.port = +envResult.parsed.PORT;
     }
 
+    console.log(this.appName, 'port', devServer.port);
     if (await this.checkPortExist()) {
       throw new Error(`port ${devServer.port} has been used`);
     }
@@ -74,7 +75,9 @@ class DevServer extends Base {
     const opt = {
       // disable stdout by default
       stdio: ['inherit', 'ignore', 'inherit'],
-      // env,
+      env: {
+        PORT: devServer.port,
+      },
       cwd: baseDir,
     };
     if (devServer.cwd) opt.cwd = devServer.cwd;

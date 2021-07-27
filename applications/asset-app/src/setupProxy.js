@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:8080', //日常环境
+      target: 'http://localhost', // 本地docker
       changeOrigin: true,
       // pathRewrite: {
       //   '^/api': '',
