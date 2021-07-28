@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost', // 本地docker
+      target: 'http://localhost', // docker
       changeOrigin: true,
       // pathRewrite: {
       //   '^/api': '',
@@ -15,11 +15,8 @@ module.exports = function (app) {
   app.use(
     '/asset-app',
     createProxyMiddleware({
-      // target: 'http://localhost:8888', // 本地静态
-      target: 'http://localhost:7001', // 本地开发
-      // pathRewrite: { // 本地开发
-      //   '^/asset-app': '',
-      // },
+      // target: 'http://localhost:8888', // local static
+      target: 'http://localhost:7001', // local dev
       changeOrigin: true,
     }),
   );
@@ -27,11 +24,8 @@ module.exports = function (app) {
   app.use(
     '/device-app',
     createProxyMiddleware({
-      // target: 'http://localhost:8888', // 本地静态
-      target: '//localhost:7002', // 本地开发
-      pathRewrite: { // 本地开发
-        '^/device-app': '',
-      },
+      // target: 'http://localhost:8888', // local static
+      target: '//localhost:7002', // local dev
       changeOrigin: true,
     }),
   );
@@ -39,11 +33,8 @@ module.exports = function (app) {
   app.use(
     '/account-app',
     createProxyMiddleware({
-      // target: 'http://localhost:8888', // 本地静态
-      target: '//localhost:7004', // 本地开发
-      pathRewrite: { // 本地开发
-        '^/account-app': '',
-      },
+      // target: 'http://localhost:8888', // local static
+      target: '//localhost:7004', // local dev
       changeOrigin: true,
     }),
   );
@@ -51,11 +42,8 @@ module.exports = function (app) {
   app.use(
     '/permission-app',
     createProxyMiddleware({
-      // target: 'http://localhost:8888', // 本地静态
-      target: '//localhost:7003', // 本地开发
-      pathRewrite: { // 本地开发
-        '^/permission-app': '',
-      },
+      // target: 'http://localhost:8888', // local static
+      target: '//localhost:7003', // local dev
       changeOrigin: true,
     }),
   );

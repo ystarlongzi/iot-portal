@@ -30,6 +30,8 @@ module.exports = {
     config.hot = false;
     config.watchContentBase = false;
     config.liveReload = false;
+    config.contentBasePublicPath = '/device-app';
+    config.publicPath = '/device-app/';
     return config;
   },
   plugins: [

@@ -32,7 +32,6 @@ module.exports = {
     config.liveReload = false;
     config.contentBasePublicPath = '/asset-app';
     config.publicPath = '/asset-app/';
-    console.log('devServer config', config);
     return config;
   },
   plugins: [
