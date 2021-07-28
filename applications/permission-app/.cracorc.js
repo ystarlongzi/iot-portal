@@ -27,6 +27,8 @@ module.exports = {
     config.hot = false;
     config.watchContentBase = false;
     config.liveReload = false;
+    config.contentBasePublicPath = '/permission-app';
+    config.publicPath = '/permission-app/';
     return config;
   },
   plugins: [

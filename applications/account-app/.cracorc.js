@@ -27,6 +27,8 @@ module.exports = {
     config.hot = true;
     config.watchContentBase = true;
     config.liveReload = true;
+    config.contentBasePublicPath = '/account-app';
+    config.publicPath = '/account-app/';
     return config;
   },
   plugins: [
