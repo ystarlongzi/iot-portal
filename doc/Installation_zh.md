@@ -10,8 +10,6 @@
 ### Windows 用户
 下载安装 `Nodejs` [官网地址](https://nodejs.org/en/)
 
-下载安装 `Nginx` [官网地址](http://nginx.org/en/download.html)
-
 ----
 
 ### Mac 或者 Linux 用户
@@ -49,34 +47,6 @@ yarn config set registry https://registry.npm.taobao.org/
 node -v
 ```
 查看当前 node 版本情况，如能正确输出 v14.17.1, 则表示安装成功
-
-#### Nginx
-启动命令行工具`Terminal`
-如已安装 `Nginx` 请忽略此步
-
-1. 安装 `xcode-select`
-```
-xcode-select --install
-```
-> 注意：如果执行命令报 安装失败不能安装该软件 因为当前无法从软件更新服务器获得，请移步[Apple Developer](https://developer.apple.com/download/more/) 先登录。下载对应版本的Command Line Tools
-
-2. 安装 `homebrew`
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-具体可查看 [homebrew](https://brew.sh/)
-> 小技巧: 为了节省时间，执行 brew install 命令后，可以按下 ctrl-c 组合键跳过 brew update 步骤
-
-3. 安装 `Nginx`
-```
-brew install nginx
-```
-
-4. 检查 `Nginx` 是否安装成功
-```
-nginx -v
-```
-查看 `Nginx` 版本
 
 
 ----

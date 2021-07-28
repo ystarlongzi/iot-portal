@@ -1,11 +1,12 @@
 const child_process = require("child_process");
-const { getAllAppPath } = require("./common");
+const { getAllAppPath, getAllAppAbsolutePath } = require("./common");
 const { resolve } = require('path');
 
 function install(path) {
   return new Promise((resolve, reject) => {
-    const p = child_process.spawn('yarn', [], {
+    const p = child_process.spawn('npm', ['install'], {
       cwd: path,
+      stdio: ['inherit', 'inherit', 'inherit'],
     });
     p.on('error', (error) => {
       reject(error);
@@ -17,7 +18,7 @@ function install(path) {
 }
 
 async function main() {
-  const paths = await getAllAppPath();
+  const paths = await getAllAppAbsolutePath(true);
   for await (let item of paths) {
     install(resolve(item)).then(() => {
       console.log(item, ' install successfully');

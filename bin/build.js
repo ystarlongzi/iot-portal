@@ -1,11 +1,12 @@
 const child_process = require("child_process");
-const { getAllAppPath } = require("./common");
+const { getAllAppAbsolutePath } = require("./common");
 const { resolve } = require('path');
 
 function build(path) {
   return new Promise((resolve, reject) => {
     const p = child_process.spawn('npm', ['run', 'build'], {
       cwd: path,
+      stdio: ['inherit', 'inherit', 'inherit'],
     });
     p.on('error', (error) => {
       reject(error);
@@ -17,7 +18,7 @@ function build(path) {
 }
 
 async function main() {
-  const paths = await getAllAppPath();
+  const paths = await getAllAppAbsolutePath();
   const promiseArr = [];
   for (let item of paths) {
     promiseArr.push(build(resolve(item)).then(() => {
