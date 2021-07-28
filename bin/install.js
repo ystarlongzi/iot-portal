@@ -4,8 +4,9 @@ const { resolve } = require('path');
 
 function install(path) {
   return new Promise((resolve, reject) => {
-    const p = child_process.spawn('yarn', [], {
+    const p = child_process.spawn('npm', ['install'], {
       cwd: path,
+      stdio: ['inherit', 'inherit', 'inherit'],
     });
     p.on('error', (error) => {
       reject(error);

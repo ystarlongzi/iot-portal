@@ -6,6 +6,7 @@ function build(path) {
   return new Promise((resolve, reject) => {
     const p = child_process.spawn('npm', ['run', 'build'], {
       cwd: path,
+      stdio: ['inherit', 'inherit', 'inherit'],
     });
     p.on('error', (error) => {
       reject(error);
