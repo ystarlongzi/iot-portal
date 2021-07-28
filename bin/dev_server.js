@@ -12,19 +12,6 @@ const mkdirp = require('mz-modules/mkdirp');
 const is = require('is-type-of');
 const dotenv = require('dotenv');
 
-// const baseConfig = {
-//   baseDir: '',
-//   devServer: {
-//     enable: true,
-//     command: 'npm run start',
-//     port: 3000,
-//     env: {},
-//     debug: true,
-//     timeout: 60 * 1000,
-//     waitStart: false,
-//   },
-// };
-
 class DevServer extends Base {
   baseConfig = {
     baseDir: '',

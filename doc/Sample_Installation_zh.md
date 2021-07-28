@@ -59,10 +59,17 @@ npm run build
 
 #### 步骤三：启动http服务
 
+> 目前http服务后台运行支持Mac，Linux用户, **其他系统**暂不支持后台长期运行
+其他系统如需后台长期运行，请参考使用 `forever` 或者 `pm2` 等优秀的业界解决方案
+
 ```bash
+# Mac or Linux
 npm run start:server
+
+# Other Systems
+npm run start
 ```
-项目默认监听 `8888` 端口，在后端服务运行后，会自动打开浏览器
+项目默认监听 `8888` 端口，在后端服务运行后
 
 > 说明： http 服务提供静态文件托管和api状态能力，
 静态托管文件的目录为 {project}/dist，

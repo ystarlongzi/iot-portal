@@ -8,7 +8,7 @@ const port = '8888';
 
 app.use(
   '/api',
-  proxy('http://localhost', {
+  proxy('http://localhost:8080', {
     proxyReqPathResolver: function (req) {
       const { originalUrl } = req;
       // 后端服务的路径无/api，需在前端剔除此部分
