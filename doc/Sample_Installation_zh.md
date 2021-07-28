@@ -27,9 +27,14 @@
 
 ### 准备工作
 
-启动 IoT Suite 接口服务。接口服务启动方法参见[本地运行 IoT Suite 后端项目](https://github.com/tuya/iot-suite-server/blob/4a14fbb61206fcec1c578b7fe9bf133439f1661d/README_zh.md)。
+启动 SaaS 开发框架接口服务。
+接口服务启动方法参见[本地运行 SaaS 开发框架后端项目](https://github.com/tuya/iot-suite-server/blob/4a14fbb61206fcec1c578b7fe9bf133439f1661d/README_zh.md)。
 
-	**说明：** 前端项目中默认请求的后端地址为 `http://localhost:8080`。
+或者
+
+使用[SaaS开发框架Docker镜像](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework_Image?id=Kapsg7pttb8f2)启动SaaS开发框架后端服务
+
+	**说明** 前端项目中默认请求的后端地址为 `http://localhost:8080`。
 
 #### 步骤一：安装项目依赖
 
