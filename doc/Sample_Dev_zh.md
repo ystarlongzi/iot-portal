@@ -67,6 +67,13 @@ Docker服务默认初始化的账户是
 至此，我们完成了主应用+子应用的嵌套调试服务的启动
 
 
+### 微前端配置说明
+
+SaaS开发框架是基础[qiankun](https://qiankun.umijs.org/zh)实现，微前端的基座应用是 `main-app`
+所有的子应用全部依赖基座应用来加载
+具体的配置位置`{project}/applications/main-app/src/qiankun`
+
+
 
 ## 便捷指令说明
 
