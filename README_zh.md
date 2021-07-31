@@ -27,18 +27,18 @@ SaaS 开发框架，是涂鸦为 IoT SaaS 开发者提供的前、后端开源�
 ## IOT Portal 目录结构
 
 ```
-- iot-portal 开发框架前端应用
-  - /applications 微应用项目集合
-    - /main-app 主服务
-    - /account-app 子服务：账户管理
-    - /asset-app 子服务：资产管理
-    - /permission-app 子服务： 权限管理
-    - /device-app 子服务：设备管理
-  - /doc 文档
-  - /conf Dockerfile 和 nginx 配置
-  - /bin 命令脚本
-  - /dist 构建后的静态资源
-  - /server http 服务：提供静态文件托管服务和 api 转发代理
+- iot-portal # 开发框架前端应用
+  - /applications # 微应用项目集合
+    - /main-app # 主服务
+    - /account-app # 子服务：账户管理
+    - /asset-app # 子服务：资产管理
+    - /permission-app # 子服务： 权限管理
+    - /device-app # 子服务：设备管理
+  - /doc # 文档
+  - /conf # Dockerfile 和 Nginx 配置
+  - /bin # 命令脚本
+  - /dist # 构建后的静态资源
+  - /server # HTTP 服务：提供静态文件托管服务和 API 转发代理
 ```
 
 
