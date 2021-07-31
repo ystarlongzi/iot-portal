@@ -24,19 +24,20 @@ This topic describes how to configure and run the IoT Suite frontend projects in
 - Download the code: `git clone https://github.com/tuya/iot-portal.git`
    The code structure is as follows:
 
-   ```
-   - iot-portal  # The frontend application of the development framework
-     - /main-app # Micro application: base application
-     - /account-app # Micro application: account management
-     - /asset-app # Micro application: asset management
-     - /permission-app # Micro application: permission management
-     - /device-app # Micro application: device management
-     - /doc # Documentation
-     - /conf # Dockerfile and NGINX configuration
-     - /bin # Command script
-     - /dist # Static resources after building
-   ```
-
+```
+- iot-portal # The frontend application of the development framework
+  - /applications # Micro applications
+    - /main-app # Micro application: base application
+    - /account-app # Micro application: account management
+    - /asset-app # Micro application: asset management
+    - /permission-app # Micro application: permission management
+    - /device-app # Micro application: device management
+  - /doc # Documentation
+  - /conf # Dockerfile and NGINX configuration
+  - /bin # Command script
+  - /dist # Static resources after building
+  - /server # a node.js HTTP server for hosting this application
+```
 
 ## Debug the micro application
 
