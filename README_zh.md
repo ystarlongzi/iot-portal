@@ -19,9 +19,8 @@ SaaS 开发框架，是涂鸦为 IoT SaaS 开发者提供的前、后端开源�
 
 ##  如何使用 IOT Portal
 
-我们为您准备了一篇 [快速入门 IOT Portal](./doc/Quick_start.md) 的文档。
-
-您也可以了解完整的 SaaS 开发框架体系 [SaaS 开发框架](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework?id=Kaps8jd0mowem) 的文档。
+- [快速开始](./doc/Quick_start.md)
+- 了解完整的 SaaS 开发框架体系 [SaaS 开发框架](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework?id=Kaps8jd0mowem)。
 
 
 ## IOT Portal 目录结构
