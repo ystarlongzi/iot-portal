@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# IDES and editors
+.idea
+
+# system files
+.DS_Store
+Thumbs.db
+
 # dependencies
 node_modules
 

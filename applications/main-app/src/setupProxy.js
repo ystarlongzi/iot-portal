@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function (app) {
@@ -11,40 +13,32 @@ module.exports = function (app) {
       // },
     }),
   );
-
-  app.use(
-    '/asset-app',
-    createProxyMiddleware({
-      // target: 'http://localhost:8888', // local static
-      target: 'http://localhost:7001', // local dev
-      changeOrigin: true,
-    }),
-  );
-
-  app.use(
-    '/device-app',
-    createProxyMiddleware({
-      // target: 'http://localhost:8888', // local static
-      target: '//localhost:7002', // local dev
-      changeOrigin: true,
-    }),
-  );
-
-  app.use(
-    '/account-app',
-    createProxyMiddleware({
-      // target: 'http://localhost:8888', // local static
-      target: '//localhost:7004', // local dev
-      changeOrigin: true,
-    }),
-  );
-
-  app.use(
-    '/permission-app',
-    createProxyMiddleware({
-      // target: 'http://localhost:8888', // local static
-      target: '//localhost:7003', // local dev
-      changeOrigin: true,
-    }),
-  );
+  proxySubApps(app);
 };
+
+function proxySubApps(mainApp) {
+  fs.readdir(path.resolve(__dirname, '../../'), (err, allAppDirs) => {
+    allAppDirs.forEach((dirName) => {
+      // Exclude `./main-app` dir
+      if (__dirname.indexOf(`/${dirName}/`) !== -1) {
+        return;
+      }
+
+      try {
+        const envFile = fs.readFileSync(
+          path.resolve(__dirname, `../../${dirName}/.env`),
+          'utf8'
+        );
+        const [, port] = /PORT=(\d+)/i.exec(envFile) || [, 3000];
+
+        mainApp.use(
+          `/${dirName}`,
+          createProxyMiddleware({
+            target: `//localhost:${port}`,
+            changeOrigin: true,
+          }),
+        );
+      } catch (e) {}
+    });
+  });
+}
