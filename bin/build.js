@@ -5,7 +5,7 @@ const { getAllAppAbsolutePath } = require('./common');
 async function main() {
   const paths = await getAllAppAbsolutePath();
   for (const path of paths) {
-    if (utils.isYarn()) {
+    if (await utils.isYarn()) {
       await execa('yarn', ['build'], {
         cwd: path,
         stdio: 'inherit',

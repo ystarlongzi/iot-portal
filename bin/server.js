@@ -4,7 +4,7 @@ const app = require('express')();
 const serveStatic = require('serve-static');
 const open = require('open');
 
-const port = '8000';
+const port = '8888';
 
 app.use(
   '/api',
