@@ -20,11 +20,9 @@ const getAllAppPath = () => {
   });
 };
 
-const getAllAppAbsolutePath = async (withServerPath = false) => {
+const getAllAppAbsolutePath = async () => {
   const result = [];
-  if (withServerPath) {
-    result.push(path.resolve(__dirname, '../server'));
-  }
+
   const appPathPrefix = path.resolve(__dirname, '../applications');
   const paths = await fspromises.readdir(appPathPrefix).then((dirPaths) => {
     const appPaths = dirPaths

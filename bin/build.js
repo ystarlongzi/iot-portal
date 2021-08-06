@@ -1,33 +1,22 @@
-const child_process = require("child_process");
-const { getAllAppAbsolutePath } = require("./common");
-const { resolve } = require('path');
-
-function build(path) {
-  return new Promise((resolve, reject) => {
-    const p = child_process.spawn('npm', ['run', 'build'], {
-      cwd: path,
-      stdio: ['inherit', 'inherit', 'inherit'],
-    });
-    p.on('error', (error) => {
-      reject(error);
-    })
-    p.on('close', () => {
-      resolve(null);
-    });
-  });
-}
+const execa = require('execa');
+const utils = require('./utils');
+const { getAllAppAbsolutePath } = require('./common');
 
 async function main() {
   const paths = await getAllAppAbsolutePath();
-  const promiseArr = [];
-  for (let item of paths) {
-    promiseArr.push(build(resolve(item)).then(() => {
-      console.log(item, ' build successfully');
-    }).catch((err) => {
-      console.error(item, err);
-    }))
+  for (const path of paths) {
+    if (utils.isYarn()) {
+      await execa('yarn', ['build'], {
+        cwd: path,
+        stdio: 'inherit',
+      });
+    } else {
+      await execa('npm', ['run', 'build'], {
+        cwd: path,
+        stdio: 'inherit',
+      });
+    }
   }
-  return Promise.all(promiseArr);
 }
 
 main();

@@ -1,1 +1,0 @@
-nohup node --title=iot-portal-web-server ./index.js >> ./server.log 2>&1 &

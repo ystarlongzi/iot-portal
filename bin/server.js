@@ -4,12 +4,12 @@ const app = require('express')();
 const serveStatic = require('serve-static');
 const open = require('open');
 
-const port = '8888';
+const port = '8000';
 
 app.use(
   '/api',
   proxy('http://localhost:8080', {
-    proxyReqPathResolver: function (req) {
+    proxyReqPathResolver(req) {
       const { originalUrl } = req;
       // 后端服务的路径无/api，需在前端剔除此部分
       // return originalUrl.replace('/api', '');
@@ -24,8 +24,7 @@ app.use(serveStatic(path.join(__dirname, '../dist')));
 app.use(serveStatic(path.join(__dirname, '../dist/main-app')));
 
 app.get('*', (req, res) => {
-  // 静态托管缺失，返回主应用index.html
-  return res.sendFile(path.resolve(__dirname, '../dist/main-app/index.html'));
+  res.sendFile(path.resolve(__dirname, '../dist/main-app/index.html'));
 });
 
 app.listen(port, () => {
