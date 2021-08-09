@@ -2,9 +2,12 @@
   "name": "iot-portal",
   "version": "1.0.0",
   "description": "",
+  "private": true,
+  "workspaces": [
+    "applications/*"
+  ],
   "scripts": {
-    "apps:install": "node ./bin/install.js",
-    "apps:build": "node ./bin/build.js && node ./bin/sync.js",
+    "build": "yarn workspaces run build && node ./bin/sync.js",
     "start": "node ./bin/server.js"
   },
   "repository": {
