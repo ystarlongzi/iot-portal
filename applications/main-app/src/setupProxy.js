@@ -8,37 +8,35 @@ module.exports = function (app) {
     createProxyMiddleware({
       target: 'http://localhost', // docker
       changeOrigin: true,
-      // pathRewrite: {
-      //   '^/api': '',
-      // },
+      headers: {},
     }),
   );
   proxySubApps(app);
 };
 
 function proxySubApps(mainApp) {
-  fs.readdir(path.resolve(__dirname, '../../'), (err, allAppDirs) => {
-    allAppDirs.forEach((dirName) => {
-      // Exclude `./main-app` dir
-      if (__dirname.indexOf(`/${dirName}/`) !== -1) {
-        return;
-      }
+  const allAppDirs = fs.readdirSync(path.resolve(__dirname, '../../'));
 
-      try {
-        const envFile = fs.readFileSync(
-          path.resolve(__dirname, `../../${dirName}/.env`),
-          'utf8'
-        );
-        const [, port] = /PORT=(\d+)/i.exec(envFile) || [, 3000];
+  allAppDirs.forEach((dirName) => {
+    // Exclude `./main-app` dir
+    if (__dirname.indexOf(`/${dirName}/`) !== -1) {
+      return;
+    }
 
-        mainApp.use(
-          `/${dirName}`,
-          createProxyMiddleware({
-            target: `//localhost:${port}`,
-            changeOrigin: true,
-          }),
-        );
-      } catch (e) {}
-    });
+    try {
+      const envFile = fs.readFileSync(
+        path.resolve(__dirname, `../../${dirName}/.env`),
+        'utf8'
+      );
+      const [, port] = /PORT=(\d+)/i.exec(envFile) || [, 3000];
+
+      mainApp.use(
+        `/${dirName}`,
+        createProxyMiddleware({
+          target: `http://localhost:${port}`,
+          changeOrigin: true,
+        }),
+      );
+    } catch (e) {}
   });
 }
