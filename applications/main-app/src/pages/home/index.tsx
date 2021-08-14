@@ -16,7 +16,7 @@ const Home = ({ menu }) => {
       // if (path[path.length - 1] === '/') {
       //   path = pathname.slice(0, -1);
       // }
-      return item.path.replace(/\//g, '') === pathname.replace(/\//g, '');
+      return (item.path || '').replace(/\//g, '') === pathname.replace(/\//g, '');
     }).length > 0;
   return (
     <BLayout menu={menu}>
