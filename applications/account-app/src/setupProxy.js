@@ -1,14 +1,4 @@
-const { createProxyMiddleware } = require('http-proxy-middleware');
+const path = require('path');
+const proxy = require(path.join(__dirname, '../../../setupProxy.js'));
 
-module.exports = function (app) {
-  app.use(
-    '/api',
-    createProxyMiddleware({
-      target: 'http://localhost', //Docker
-      changeOrigin: true,
-      // pathRewrite: {
-      //   '^/api': '',
-      // },
-    }),
-  );
-};
+module.exports = proxy;
