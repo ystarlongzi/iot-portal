@@ -1,9 +1,18 @@
 const fs = require("fs");
-const fspromises = require("fs/promises");
-// const child_process = require("child_process");
 const { resolve } = require("path");
 const ncp = require("ncp").ncp;
 const { getAllAppPath } = require("./common");
+
+let fspromises;
+
+try {
+  // see: https://github.com/nodejs/node/issues/35740
+  // eslint-disable-next-line
+  fspromises = require('fs').promises;
+} catch (e) {
+  // eslint-disable-next-line
+  fspromises = require('fs/promises');
+}
 
 function copyDir(from, to) {
   // child_process.spawn('cp', ['-r', from, to]);
