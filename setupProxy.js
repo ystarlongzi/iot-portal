@@ -1,6 +1,6 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
-module.exports = function(app, opts) {
+module.exports = function(app, opts = {}) {
   const apiPath = opts.apiPath || '/api';
   const target = 'http://localhost';
 
