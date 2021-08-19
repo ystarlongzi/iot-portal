@@ -24,7 +24,7 @@ The front-end project of the SaaS development framework requires the server to p
 
   - If you just want to experience the development and debugging process of this project, it is recommended to use "Method 2" to start the interface service
 
-  - The default interface service address is `http://localhost`, you can modify the configuration in [./bin/server.js#L13](./bin/server.js#L13) according to the actual situation
+  - The default interface service address is `http://localhost`, you can modify the configuration in [./setupProxy.js#L5](./setupProxy.js#L5) according to the actual situation
 
 ### Step 2: Installation
 
@@ -63,7 +63,7 @@ Next we look at how to debug and develop sub-applications.
 
 ## Development & Debug
 
-The SaaS development framework uses a micro-front-end architecture. Each micro-front-end application is an independent project and needs to be configured with independent dependencies, and each micro-front-end application can be independently deployed and run independently. This article takes debugging [`./applications/asset-app`](./applications/asset-app) (account management sub-application) as an example to introduce you the debugging process.
+The SaaS development framework uses a micro-front-end architecture. Each micro-front-end application is an independent project and needs to be configured with independent dependencies, and each micro-front-end application can be independently deployed and run independently. This article takes debugging [`./applications/asset-app`](./applications/asset-app) (account management sub-application) as an example to introduce you the development & debugging process.
 
 ### Step 1: Start the interface service
 

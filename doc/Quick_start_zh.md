@@ -24,7 +24,7 @@ SaaS 开发框架的前端项目需要服务端提供接口服务，我们提供
 
   - 如果仅仅是想体验本项目的开发、调试流程，建议使用「方法 2」启动接口服务
 
-  - 默认接口服务地址为 `http://localhost`，可以根据实际情况修改 [./bin/server.js#L13](./bin/server.js#L13) 中的配置
+  - 默认接口服务地址为 `http://localhost`，可以根据实际情况修改 [./setupProxy.js#L5](./setupProxy.js#L5) 中的配置
 
 ### 步骤 2：安装
 
@@ -63,7 +63,7 @@ yarn run start
 
 ## 开发 & 调试
 
-SaaS 开发框架采用的是微前端的架构，每个微前端应用均为独立项目，需要配置独立的依赖，且每个微前端应用均可独立部署独立运行。本文以调试 [`./applications/asset-app`](./applications/asset-app)（账户管理子应用） 为例为您介绍调试流程。
+SaaS 开发框架采用的是微前端的架构，每个微前端应用均为独立项目，需要配置独立的依赖，且每个微前端应用均可独立部署独立运行。本文以调试 [`./applications/asset-app`](./applications/asset-app)（账户管理子应用） 为例为您介绍开发 & 调试流程。
 
 ### 步骤 1：启动接口服务
 
