@@ -3,18 +3,11 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = require('express')();
 const serveStatic = require('serve-static');
 const open = require('open');
+const proxy = require('../setupProxy');
 
 const port = '8888';
 
-app.use(
-  '/api',
-  createProxyMiddleware({
-    // see more: https://github.com/chimurai/http-proxy-middleware#options
-    target: 'http://localhost:8080',
-    changeOrigin: true,
-    headers: {},
-  }),
-);
+proxy(app, {});
 
 app.use(serveStatic(path.join(__dirname, '../dist')));
 app.use(serveStatic(path.join(__dirname, '../dist/main-app')));
