@@ -5,10 +5,11 @@ This article will introduce how to configure and run the front-end project of th
 This article is divided into two parts, `Quick Experience` and `Development & Debugging`, which respectively introduce how to install and start the project and how to carry out secondary development.
 
 ## Environment dependency
--[Node.js ≥ 12.0.0](https://nodejs.org/en/) (It is recommended to install the LTS version)
--[Yarn](https://yarnpkg.com/) (Optional)
--[Git](https://git-scm.com/)
--[Docker](https://www.docker.com) (Optional, used to build image)
+- [Node.js ≥ 12.0.0](https://nodejs.org/en/) (It is recommended to install the LTS version)
+- [Yarn](https://yarnpkg.com/)
+  - Install CLI: `npm i yarn -g`
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com) (Optional, used to build image)
 
 ## Quick experience
 ### Step 1: Start the interface service
@@ -36,9 +37,6 @@ cd ./iot-portal
 
 # Use yarn to install dependencies
 yarn
-
-# Or use npm
-npm install
 ```
 
 ### Step 3: Compile the front-end project
@@ -46,9 +44,6 @@ npm install
 ```bash
 # Use yarn to compile
 yarn run build
-
-# Or use npm to compile
-npm run build
 ```
 
 The compiled file is as follows:
@@ -60,9 +55,6 @@ The compiled file is as follows:
 ```bash
 # Use yarn to start the service
 yarn run start
-
-# Or use npm
-npm run start
 ```
 
 At this point, the startup of the project is completed. The service listens to the port `8888` by default. Enter [http://localhost:8888](http://localhost:8888) in the browser to access it normally.
@@ -88,9 +80,6 @@ cd ./applications/asset-app
 
 # Launch sub-application
 yarn run start
-
-# Or use npm
-npm run start
 ```
 
 > After the service is started, enter [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) in the browser to access the sub-application.
@@ -125,9 +114,6 @@ cd ./applications/main-app
 
 # Start the main application
 yarn run start
-
-# Or use npm
-npm run start
 ```
 
 After the startup is complete, it will come to the login page [http://localhost:3000/login](http://localhost:3000/login) by default, as shown in the figure below. The default initialized account of the Docker service is:

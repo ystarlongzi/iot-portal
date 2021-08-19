@@ -6,7 +6,8 @@
 
 ## 环境依赖
 - [Node.js ≥ 12.0.0](https://nodejs.org/en/) （建议安装 LTS 版本）
-- [Yarn](https://yarnpkg.com/) （可选）
+- [Yarn](https://yarnpkg.com/)
+  - 安装：`npm i yarn -g`
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com) （可选，用于构建镜像）
 
@@ -36,9 +37,6 @@ cd ./iot-portal
 
 # 使用 yarn 安装依赖
 yarn
-
-# 或者使用 npm 安装依赖
-npm install
 ```
 
 ### 步骤 3：编译前端项目
@@ -46,9 +44,6 @@ npm install
 ```bash
 # 使用 yarn 编译
 yarn run build
-
-# 或者使用 npm 编译
-npm run build
 ```
 
 编译后的文件如下：
@@ -59,9 +54,6 @@ npm run build
 ```bash
 # 使用 yarn 启动服务
 yarn run start
-
-# 或者使用 npm 启动服务
-npm run start
 ```
 
 至此，就完成了项目的启动，服务默认监听 `8888` 端口，在浏览器中输入 [http://localhost:8888](http://localhost:8888) 就能正常访问。
@@ -88,9 +80,6 @@ cd ./applications/asset-app
 
 # 启动子应用
 yarn run start
-
-# 或者使用 npm 启动子应用
-npm run start
 ```
 
 > 服务启动后，在浏览器中输入 [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) 就能访问该子应用。
@@ -125,9 +114,6 @@ cd ./applications/main-app
 
 # 启动主应用
 yarn run start
-
-# 或者使用 npm 启动主应用
-npm run start
 ```
 
 启动完成，默认会来到登陆页面 [http://localhost:3000/login](http://localhost:3000/login) ，如下图所示。Docker服务默认初始化的账户是：
