@@ -29,27 +29,6 @@ The SaaS development framework is a front-end and back-end open source framework
 - [Quick Start](./doc/Quick_start_zh.md)
 - Read [SaaS Development Framework](https://developer.tuya.com/en/docs/iot/SaaSDevelopmentFramework?id=Kaps8jd0mowem) to understand the complete framework system.
 
-## Architecture
-
-```
-. iot-portal
-├── applications    ..................... Micro applications
-│   ├── account-app   ................... Sub app：account management
-│   ├── asset-app   ..................... Sub app：asset management
-│   ├── device-app    ................... Sub app：permission management
-│   ├── main-app    ..................... Main app: base application
-│   └── permission-app    ............... Sub app： permission management
-├── bin   ............................... Command scripts
-│   ├── common.js
-│   ├── server.js
-│   └── sync.js
-├── conf    ............................. Dockerfile and NGINX configuration
-│   ├── Dockerfile
-│   └── nginx.conf
-├── dist    ............................. Static resources after building
-├── doc   ............................... Documentation
-└── setupProxy.js   ..................... API service proxy configuration
-```
 
 ## Feedback
 Welcome to [GitHub Issue](https://github.com/tuya/iot-portal/issues) to give us feedback on issues and get help.
