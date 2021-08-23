@@ -122,7 +122,7 @@ After the service is started, enter [http://localhost:7001/asset-app/](http://lo
 
 After that, Go back and refresh the address of the main application just now [http://localhost:3000/asset](http://localhost:3000/asset), you can see the following interface:
 
-> <img width="550" src="./images/asset-app-zh.png" />
+> <img width="550" src="./images/asset-app.png" />
 
 At this point, we have completed the startup of the nested debugging service of "main application + sub-application" ✌🏻 .
 
