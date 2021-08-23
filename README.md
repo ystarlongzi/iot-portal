@@ -10,13 +10,12 @@ The SaaS development framework is a front-end and back-end open source framework
 
 ## Features
 
-- 📦 Based on the [qiankun](https://qiankun.umijs.org/zh/guide) framework, provides a more out-of-the-box API;
-- 📱 The technology stack is irrelevant, and any technology stack application can be used/accessed, whether it is React/Vue/Angular/JQuery or other frameworks;
-- 💪 HTML Entry access method, allowing you to access micro applications as easy as using iframe;
-- 🛡 Style isolation to ensure that the styles of micro-applications do not interfere with each other;
-- 🧳 JS sandbox to ensure that global variables/events do not conflict between micro-applications;
-- ⚡️ Resource pre-loading, pre-load the unopened micro-app resources during the idle time of the browser to speed up the opening speed of the micro-apps.
-
+- 📦 Using the [qiankun](https://qiankun.umijs.org/zh/guide) framework to build and introduce a micro front-end architecture;
+- 📱 Out of the box. Provides complete development tools; also built-in application management, permission management, device management, asset management and other basic micro-applications;
+- 🌍 Support for multiple languages, with both Chinese and English available by default;
+- 🦾 Optimized for secondary development: You can extend existing functions through micro-applications, and also support secondary development of built-in functions to meet specific business needs;
+- 💡 Optimized for IoT environments. Based on the Tuya cloud platform and designed for IoT-type applications;
+- 💼 Use yarn workspaces to manage packages of multi-apps.
 
 ## Environment dependency
 - [Node.js ≥ 12.0.0](https://nodejs.org/en/) (It is recommended to install the LTS version)
