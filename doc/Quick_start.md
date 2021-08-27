@@ -16,9 +16,9 @@ This article is divided into two parts, `Quick Experience` and `Development & De
 
 The front-end project of the SaaS development framework requires the server to provide interface services. We provide the following two ways to start the interface services:
 
-  1. [Run SaaS Development Framework Backend Project in Local Mode](https://developer.tuya.com/en/docs/iot/SaaSDevelopmentFramework_backend?id=Kaqcx9hwc9i62)
+  - Method 1: [Run SaaS Development Framework Backend Project in Local Mode](https://developer.tuya.com/en/docs/iot/SaaSDevelopmentFramework_backend?id=Kaqcx9hwc9i62)
 
-  2. [Run SaaS Development Framework Docker](https://developer.tuya.com/en/docs/iot/SaaSDevelopmentFramework_Image?id=Kapsg7pttb8f2) 
+  - Method 2: [Run SaaS Development Framework Docker](https://developer.tuya.com/en/docs/iot/SaaSDevelopmentFramework_Image?id=Kapsg7pttb8f2) 
  
 **💬 Description:**
 
@@ -71,42 +71,10 @@ In order to reduce the difficulty of debugging, we use [Run SaaS Development Fra
 
 After the interface service is started successfully, make sure that [`./setupProxy.js#L5`](./setupProxy.js#L5) is configured with the correct service address.
 
-
-###Step 2: Launch the sub-application
-
-```bash
-# Enter the sub-application that needs to be debugged
-cd ./applications/asset-app
-
-# Launch sub-application
-yarn run start
-```
-
-> After the service is started, enter [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) in the browser to access the sub-application.
-> 
-> Because we deploy sub-applications in the form of sub-directories, there will be a `/asset-app` path in the url address.
-> 
-> In addition, you can also modify the `7001` port of the sub-application in `./applications/asset-app/.env`.
-
-#### Case 1: The interface service has not been started
-
-After completing the compilation process, you can see the following interface in the browser
-
-> <img width="550" src="./images/asset-app-empty.png" />
-> 
-
-#### Case 2: The interface service starts normally
-
-After completing the compilation process, it will automatically jump to `http://localhost:7001/login`. This is because the interface request does not contain login information. The back-end service will throw an exception after receiving the request, and the front-end service is receiving an exception Later, if it is found that the login state is invalid, it will jump to `/login`, and the user needs to log in again.
-
-> <img width="550" src="./images/asset-app-error.png" />
-
-But our sub-application does not provide login function, now, we will turn the view back to the main application
+> <img width="550" src="./images/setup-proxy.png" />
 
 
-### Step 3: Start the main application
-
-Open a new command line window to start the main application, the process is similar to launching sub-applications.
+### Step 2: Start the main application
 
 ```bash
 # Enter the main application
@@ -116,18 +84,47 @@ cd ./applications/main-app
 yarn run start
 ```
 
-After the startup is complete, it will come to the login page [http://localhost:3000/login](http://localhost:3000/login) by default, as shown in the figure below. The default initialized account of the Docker service is:
+After the startup is complete, it will open the login page [http://localhost:3000/login](http://localhost:3000/login) by default, as shown in the figure below. The default initialized account of the Docker service is:
 
- - Account：admin@tuya.com
- - Password：Admin123456
+- Account：admin@tuya.com
+- Password：Admin123456
 
 > <img width="550" src="./images/main-app-login.png" />
 
-After logging in successfully, you can enter the `asset-app`
+After the login is successful, it will jump to the [http://localhost:3000/asset](http://localhost:3000/asset) page, but since we have not started the `./applications/asset-app` sub-application, so You will see the following error message.
+
+> <img width="550" src="./images/asset-app-not-started.png" />
+
+Next, we start to start the `./applications/asset-app` sub-application
+
+
+### Step 3: Launch the sub-application
+
+Open a new command line window to start the sub-application, the process is similar to launching main application.
+
+```bash
+# Enter the sub-application that needs to be debugged
+cd ./applications/asset-app
+
+# Launch sub-application
+yarn run start
+```
+
+After the service is started, enter [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) in the browser to access the sub-application, as shown below:
+
+> <img width="550" src="./images/single-asset-app.png" />
+
+**💬 Description:**
+
+ - Because we deploy sub-applications in the form of sub-directories, there will be a `/asset-app` path in the url address.  
+
+ - you can also modify the `7001` port of the sub-application in `./applications/asset-app/.env`.
+
+After that, Go back and refresh the address of the main application just now [http://localhost:3000/asset](http://localhost:3000/asset), you can see the following interface:
 
 > <img width="550" src="./images/asset-app.png" />
 
-At this point, we have completed the startup of the nested debugging service of "main application + sub-application"
+At this point, we have completed the startup of the nested debugging service of "main application + sub-application" ✌🏻 .
 
 
 ## Micro front end configuration instructions

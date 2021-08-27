@@ -16,9 +16,9 @@
 
 SaaS 开发框架的前端项目需要服务端提供接口服务，我们提供以下两种方式启动接口服务：
 
-  1. [本地运行 SaaS 开发框架后端项目](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework_backend?id=Kaqcx9hwc9i62)
+  - 方法 1: [本地运行 SaaS 开发框架后端项目](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework_backend?id=Kaqcx9hwc9i62)
 
-  2. [运行 SaaS 开发框架 Docker 镜像](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework_Image?id=Kapsg7pttb8f2) 
+  - 方法 2：[运行 SaaS 开发框架 Docker 镜像](https://developer.tuya.com/cn/docs/iot/SaaSDevelopmentFramework_Image?id=Kapsg7pttb8f2) 
  
 **💬 说明：**
 
@@ -71,42 +71,10 @@ SaaS 开发框架采用的是微前端的架构，每个微前端应用均为独
 
 在接口服务启动成功后，确保 [`./setupProxy.js#L5`](./setupProxy.js#L5) 配置了正确的服务地址
 
-
-### 步骤 2：启动子应用
-
-```bash
-# 进入需要调试的子应用
-cd ./applications/asset-app
-
-# 启动子应用
-yarn run start
-```
-
-> 服务启动后，在浏览器中输入 [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) 就能访问该子应用。
-> 
-> 因为我们使用子目录的形式部署子应用，所以 url 地址里会有 `/asset-app` 路径存在。
-> 
-> 另外，你也可以在 `./applications/asset-app/.env` 中修改该子应用的 `7001` 端口。
-
-#### 场景 1：在接口服务还未启动时
-
-完成编译流程后，可以在浏览器中看到如下界面
-
-> <img width="550" src="./images/asset-app-empty.png" />
-> 
-
-#### 场景 2：在接口服务启动正常时
-
-在完成编译流程后，会自动跳到 `http://localhost:7001/login` ，这是因为接口请求不包含登录信息，后端服务收到请求后会抛异常出来，前端服务在收到异常后，发现是登录态失效，就会跳转到 `/login`，需要用户重新登陆。
-
-> <img width="550" src="./images/asset-app-error.png" />
-
-但我们的子应用不提供登陆功能，现在，我们再将视角转回到主应用
+> <img width="550" src="./images/setup-proxy.png" />
 
 
-### 步骤 3：启动主应用
-
-打开一个新的命令行窗口启动主应用，该过程与启动子应用类似
+### 步骤 2：启动主应用
 
 ```bash
 # 进入主应用
@@ -116,20 +84,45 @@ cd ./applications/main-app
 yarn run start
 ```
 
-启动完成，默认会来到登陆页面 [http://localhost:3000/login](http://localhost:3000/login) ，如下图所示。Docker服务默认初始化的账户是：
+启动完成，默认会打开登陆页面 [http://localhost:3000/login](http://localhost:3000/login) ，如下图所示。Docker 服务默认初始化的账户是：
 
- - 账号：admin@tuya.com
- - 密码：Admin123456
+- 账号：admin@tuya.com
+- 密码：Admin123456
 
-> <img width="550" src="./images/main-app-login.png" />
+> <img width="550" src="./images/main-app-login-zh.png" />
 
+登陆成功后会跳转到 [http://localhost:3000/asset](http://localhost:3000/asset) 页面，但由于我们还没有启动 `./applications/asset-app` 子应用，所以会看到下面的错误信息。
 
-登陆成功后就可以进入到 `asset-app`
+> <img width="550" src="./images/asset-app-not-started-zh.png" />
 
-> <img width="550" src="./images/asset-app.png" />
+接下来，我们开始启动 `./applications/asset-app` 子应用
 
-至此，我们完成了「主应用 + 子应用」的嵌套调试服务的启动
+### 步骤 3：启动子应用
 
+打开一个新的命令行窗口启动子应用，该过程与启动主应用类似
+
+```bash
+# 进入需要调试的子应用
+cd ./applications/asset-app
+
+# 启动子应用
+yarn run start
+```
+
+服务启动后，在浏览器中输入 [http://localhost:7001/asset-app/](http://localhost:7001/asset-app/) 就能访问到该子应用，如下图：
+
+> <img width="550" src="./images/single-asset-app-zh.png" />
+
+**💬 说明：**
+ - 因为我们使用子目录的形式部署子应用，所以 url 地址里会存在 `/asset-app` 路径
+
+ - 可以在 `./applications/asset-app/.env` 中修改该子应用的 `7001` 端口
+
+之后，再回到并刷新刚才主应用的地址 [http://localhost:3000/asset](http://localhost:3000/asset)，就能看到如下的界面：
+
+> <img width="550" src="./images/asset-app-zh.png" />
+
+至此，我们完成了「主应用 + 子应用」的嵌套调试服务的启动 ✌🏻 。
 
 ## 微前端配置说明
 
