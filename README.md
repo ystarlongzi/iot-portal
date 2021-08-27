@@ -1,6 +1,6 @@
 <center><p align="center"><img src="./tuya_logo.png" width="28%" height="28%" /></p></center>
 
-IoT Portal（SaaS 开发框架前端项目）
+IoT Portal（SaaS Development Framework Portal）
 ===
 
 English | [中文版](README_zh.md)
